@@ -1,0 +1,14 @@
+[versions]
+agp = "8.7.2"
+kotlin = "1.9.24"
+playServicesWearable = "18.2.0"
+lifecycleService = "2.8.7"
+
+[libraries]
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycleService" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
